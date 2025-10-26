@@ -15,7 +15,7 @@ website: www.github.com/taesikk/taesikk.github.io
 darkmode: false
 
 # Social links
-github_username:  https://github.com/taesikk
+github_username: taesikk
 
 # Additional icon links
 #additional_links:
@@ -50,7 +50,7 @@ content:
         link: https://www.eformsign.com
         # link_text: boringcompany.com
         sub_title: Java & Spring 백엔드 개발자
-        caption: 2023.03 ~ 현
+        caption: 2023.03 ~ 현재
         quote: >
           전자문서 계약 서비스
         description: | # this will include new lines to allow paragraphs
@@ -83,19 +83,10 @@ content:
       
       - layout: top-middle
         title: 온프레미스 프로젝트 참여
-        # link: 
-        # link_text: Project Website
-        #additional_links:
-         # - title:  sproogen/modern-resume-theme
-         #   icon: fab fa-github
-         #   url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        #quote: >
           
         description: | # this will include new lines to allow paragraphs
-          - 현대 전사 전자문서 도입 프로젝트에서 임베딩 개발 진행
+          - 현대 전사 전자문서 도입 프로젝트에서 임베딩 모듈 개발
+          - 현대 국내판매 시스템 프로젝트에서 임베딩 개발 및 open API 개발
           - LG유플러스 사내 인장 동기화 스케줄러 개발
           - NH투자증권 전자 인장 관리 시스템 내 인감 증명서 관리 개발
 
@@ -105,28 +96,31 @@ content:
       - layout: left
         title: chatforyou
         link: https://github.com/SeJonJ/ChatForYou
-        # link_text: boringcompany.com
-        #sub_title: 
-        #caption: 2023.03 ~ 현
         quote: >
           실시간 화상 채팅 및 게임 플랫폼
         description: | # this will include new lines to allow paragraphs
             - 서비스 내 구글 소셜 로그인 도입
             - redis를 활용한 token 관리(토큰 저장, 조회)
             - 회원 관련 mySql 테이블 생성
+            - redis와 kafka를 활용한 실시간 친구 요청 및 수락 기능 개발 중
             
 
-  - title: 역량
-    layout: text
-    content: | 
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+  - title: Skill # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Backend          
+        description: | # this will include new lines to allow paragraphs
+            - Java, Spring, Spring MVC, Spring Batch, JPA/Hibernate, Redis
+            - mySql, MariaDB, Oracle
+            - IntelliJ, Git
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+        - layout: left
+        title: FrontEnd
+        description: | # this will include new lines to allow paragraphs
+            - HTML, JavaScript
+            - Npm, Visual Studio Code
+            
 
 # Footer
 footer_show_references: true
