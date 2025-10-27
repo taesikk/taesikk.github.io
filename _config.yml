@@ -110,14 +110,14 @@ content:
     content:
       - layout: left
         title: Backend          
-        description: | # this will include new lines to allow paragraphs
+        description: #| this will include new lines to allow paragraphs
             - Java, Spring, Spring MVC, Spring Batch, JPA/Hibernate, Redis
             - mySql, MariaDB, Oracle
             - IntelliJ, Git
 
-        - layout: left
+      - layout: left
         title: FrontEnd
-        description: | # this will include new lines to allow paragraphs
+        description: #| this will include new lines to allow paragraphs
             - HTML, JavaScript
             - Npm, Visual Studio Code
             
