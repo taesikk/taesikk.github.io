@@ -86,9 +86,13 @@ content:
           
         description: | # this will include new lines to allow paragraphs
           - 현대 전사 전자문서 도입 프로젝트에서 임베딩 모듈 개발
+            - 현대 전사 내 모든 문서 생성 시 임베딩 모듈을 통해 전송 되도록 모듈 제공
           - 현대 국내판매 시스템 프로젝트에서 임베딩 개발 및 open API 개발
-          - LG유플러스 사내 인장 동기화 스케줄러 개발
+            - 임베딩 옵션을 통한 다양한 전자 문서 생성 가능 및 문서 보존기간 설정 API를 통한 문서 삭제 기간 설정 가능
           - NH투자증권 전자 인장 관리 시스템 내 인감 증명서 관리 개발
+            - 전자 인장 관리 시스템 정상 배포 완료
+            - NH투자증권 고도화 작업 예정 및 삼성 생명 인장 관리 시스템 개발 예정
+          - LG유플러스 사내 인장 동기화 스케줄러 개발
 
   - title: Opensource # Title for the section
     layout: list # Type of content section (list/text)
